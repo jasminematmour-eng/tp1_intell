@@ -10,4 +10,3 @@ public class PresSpringXML {
         IMetier metier = springContext.getBean(IMetier.class);
         System.out.println("res="+metier.calcul());
     }
-}

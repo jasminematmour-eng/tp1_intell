@@ -2,8 +2,8 @@ package net.matmour.dao;
 
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Repository;
-
-@Repository("d")
+@Component("dao")
+//@Repository("d")
 public class DaoImpl implements IDao{
 
     @Override

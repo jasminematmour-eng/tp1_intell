@@ -9,4 +9,4 @@ public class PresSpringXML {
         ApplicationContext springContext = new ClassPathXmlApplicationContext("config.xml");
         IMetier metier = springContext.getBean(IMetier.class);
         System.out.println("res="+metier.calcul());
-    }
+    }}
